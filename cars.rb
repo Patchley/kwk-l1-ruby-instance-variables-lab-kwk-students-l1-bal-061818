@@ -4,5 +4,5 @@ class Cars
     @model = model
     @make = make
     @year = year
-    puts "I love my #{year} #{model}. It is a #{make}"
+    puts "I love my #{year} #{model}. It is a #{make}."
 end
