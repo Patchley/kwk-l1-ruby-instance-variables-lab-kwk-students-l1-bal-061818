@@ -12,5 +12,13 @@ def stereo=(car_stereo)
   @stereo = car_stereo
 end
 
+def stereo
+  @stereo
+end
+
+def cam=("backup_cam")
+  @cam = backup_cam
+end
+
 toyota = Cars.new("Camry","Toyota","1997")
 tesla = Cars.new("Prius", "Toyota", "2011")
