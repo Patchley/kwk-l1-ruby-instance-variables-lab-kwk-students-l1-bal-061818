@@ -9,4 +9,4 @@ end
 end
 
 toyota = Cars.new("Camry","Toyota","1997")
-tesla = Cars.new("")
+tesla = Cars.new("Prius", "Toyota", "2011")
