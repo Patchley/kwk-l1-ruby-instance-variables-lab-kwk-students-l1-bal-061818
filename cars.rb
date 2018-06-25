@@ -20,9 +20,11 @@ end
 toyota = Cars.new("Camry","Toyota","1997")
 prius = Cars.new("Prius", "Toyota", "2011")
 prius.stereo = "Vimeo"
+chevy = Cars.new("Tahoe","Chevy","2000")
 
 
 puts "The car has a #{prius.stereo}."
+
 
 Cars.count
 puts Cars.count
