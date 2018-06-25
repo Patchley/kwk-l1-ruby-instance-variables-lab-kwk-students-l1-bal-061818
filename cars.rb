@@ -20,5 +20,10 @@ def cam=("backup_cam")
   @cam = backup_cam
 end
 
+def cam
+  @cam
+end
+
+end
 toyota = Cars.new("Camry","Toyota","1997")
 tesla = Cars.new("Prius", "Toyota", "2011")
