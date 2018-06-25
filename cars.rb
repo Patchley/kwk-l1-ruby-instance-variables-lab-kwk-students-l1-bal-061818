@@ -1,4 +1,5 @@
 class Cars
+  attr_accessor :stereo
 
   def initialize(model,make,year)
     @model = model
