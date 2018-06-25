@@ -1,6 +1,6 @@
 class Cars
   attr_accessor :stereo, :cam
-  @@carscount
+  @@carscount = 0
 
 
   def initialize(model,make,year)
