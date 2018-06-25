@@ -10,6 +10,9 @@ class Cars
     @@carscount += 1
     puts "I love my #{year} #{model}. It is a #{make}."
 end
+def self.count
+  @@carscount
+end
 end
 
 
