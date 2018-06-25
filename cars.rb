@@ -16,7 +16,7 @@ def stereo
   @stereo
 end
 
-def cam=("backup_cam")
+def cam=(backup_cam)
   @cam = backup_cam
 end
 
